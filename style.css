@@ -46,6 +46,7 @@
     font-size: 16px;
 }
 .body_foto{
+    
     display: flex;
     margin: 0%;
     font-family: Arial;
@@ -53,6 +54,7 @@
     
 }
 .container_foto {
+   
     display: flex;
     position: relative;
    max-width: 600px ;
@@ -63,7 +65,7 @@
    }
 
 .container_foto .content_foto {
-    
+   
     position: absolute;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5); 
@@ -99,7 +101,7 @@
     border-spacing: 0;
     width: 80%;
     border: 1px solid #ddd;
-    margin-bottom: 1%;
+    margin-bottom: 5%;
 }
   .color_1{
     text-align: left;
@@ -170,10 +172,11 @@
 }
 /* contact */
 .block_c{
-    margin-top: 10%;
+    margin-top: 7%;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    margin-bottom: 20%;
 }
 .block_c h2{
     color: #818181;
@@ -181,10 +184,10 @@
  .block_c h3{
     margin-top: 5%;
     display: flex;
-   
-}
+   }
 
 .iframe{
+    margin-top: 5%;
     display: flex;
     
 }
@@ -231,6 +234,8 @@ button {
      width: 300px;
      display: flex;
      justify-content: center;
+     margin-top:30%;
+     
  }
     /* forma master class*/
 .container_mc{
@@ -242,8 +247,9 @@ button {
 }
 .forma_zap{
     display: block;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 43%;
+    
 }
 .zag h3{
     margin-top: 3%;
